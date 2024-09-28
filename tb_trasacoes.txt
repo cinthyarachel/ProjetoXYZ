@@ -1,0 +1,7 @@
+CREATE TABLE tb_transacoes (
+ Id_Transacao SMALLINT IDENTITY(1,1) PRIMARY KEY,
+ Numero_Cartao VARCHAR (50) NOT NULL,
+ Valor_Transacao VARCHAR (50) NOT NULL,
+ Data_Transacao VARCHAR (50) NOT NULL,
+ Descricao VARCHAR (50) NOT NULL,
+ );
